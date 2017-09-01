@@ -8,6 +8,7 @@
 ### Using a function
 
 * most common way to define an object in javascript
+
 ```javascript
 function Apple (type) {
     this.type = type;
@@ -31,6 +32,7 @@ alert(apple.getInfo())
 ```
 
 * we can define methods internally too.
+
 ```javascript
 function Apple (type) {
     this.type = type;
