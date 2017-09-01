@@ -44,6 +44,8 @@ function Apple (type) {
 
 * methods added to the prototype
 * this is used when we don't want a particular methods in all the instances of the object
+* The prototype object shares (not duplicated) across all the instances of the object \
+  it lives on.
 
 ```javascript
 function Apple (type) {
@@ -55,3 +57,38 @@ Apple.prototype.getInfo = function () {
     return this.color + ' ' + this.type + ' apple';
 }
 ```
+
+* we can also create objects using `Object()` constructor
+```javascript
+var person1 = new Object();
+// this stores an empty object in the person1 variable
+person1.name = 'sherry';
+person1['age'] = 20;
+person1.greeting = function() {
+    document.writeln("Hey " + this.name + ".");
+}
+```
+* we can entirely reduce the object into single line by
+
+```javascript
+var person1 = new Object({
+    name : 'sherry',
+    age : 20,
+    greeting : function() {
+        document.writeln("Hey " + this.name + ".");
+    }
+})
+```
+
+* we can create a new object using an existing object by using `create()` method
+
+```javascript
+var person2 = new Object.create(person1);
+```
+
+* IE8 does not support create() method
+
+### Object Prototypes in Javascript
+
+Prototypes are mechanisms in which Javascript objects inherits features from one another\\
+and they work differently than inheritance mechanisms in classical OOP languages.
