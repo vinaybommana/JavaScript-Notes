@@ -4,4 +4,4 @@ JAVA SCRIPT is most widely used programming language on the web and is used on m
 The building blocks of Java script make up every program and line of java script.
 Just like a language has nouns,verbs and prepositions,java script has its own building blocks.
 Instead of calling them building blocks,however,developers called them data types.
-  thank you.
+
