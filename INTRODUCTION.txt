@@ -19,12 +19,12 @@ thank u so much.
 
 ###Console 
 *Java Script print words to the console with this line of code.
-'Console.log('your message here.');'
+'console.log('your message here.');'
   Math Operators 
-  '''Console.log(20+3.5);
-     Console.log(65/240);
-     Console.log(13/5);
-     Console.log(13%5);'''
+  '''console.log(20+3.5);
+     console.log(65/240);
+     console.log(13/5);
+     console.log(13%5);'''
      output:
      23.5
      0.27083333
