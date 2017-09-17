@@ -64,7 +64,7 @@ Apple.prototype.getInfo = function () {
 ```javascript
 var person1 = new Object();
 // this stores an empty object in the person1 variable
-person1.name = 'sherry';
+person1.name = 'perry';
 person1['age'] = 20;
 person1.greeting = function() {
     document.writeln("Hey " + this.name + ".");
@@ -74,7 +74,7 @@ person1.greeting = function() {
 
 ```javascript
 var person1 = new Object({
-    name : 'sherry',
+    name : 'perry',
     age : 20,
     greeting : function() {
         document.writeln("Hey " + this.name + ".");
