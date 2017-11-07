@@ -18,8 +18,13 @@ thank u so much.
 3.Boolean: This is always one of two words either true or false,with no quotations.
 
 ### Console 
+<<<<<<< HEAD
 *Java Script print words to the console with this line of code.
 `console.log('your message here'.');`
+=======
+* Java Script print words to the console with this line of code.
+'console.log('your message here.');'
+>>>>>>> be510271e6035db6ad214cbeb04072b50aea50bd
   Math Operators 
   ``` 
   console.log(20+3.5);
