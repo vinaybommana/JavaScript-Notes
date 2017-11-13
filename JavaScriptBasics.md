@@ -1,4 +1,50 @@
+# ES ??
+
+* ECMAScript
+    - language which provides rules
+* JavaScript
+    - sort of like a dialect
+
+# Memory management in JavaScript
+
+* Why should we care about memory ?
+* What does it mean to manage memory ?
+* How does JavaScript manage memory ?
+* How do we write memory-performant applications in JavaScript ?
+
+V8 JavaScript engine
+
+## Basic datatypes
+
+* Memory Heap
+* V8 allocates objects in memory in 6 contiguous chunks, or spaces.
+    - New Space
+        - newer, smaller
+    - Old pointer space
+        -reference
+    - Old data space
+    - Large object space
+    - code space
+        - executable memory
+    - Map space
+        - maps, properties
+
+* Reachability
+* Stop the world technique
+    - Generational Garbage collection
+    - Halt the program.
+    - Run a short garbage collection cycle.
+* Scavenging
+    - applied for new data space
+    - copy the traversal elements in the heap
+    - clear the previous heap
+    - because the elements that are not traversed are garbage
+    - very high space complexity
+* Mark and Sweep
+    - applied for old data space
+
 # Generator functions
+
  
 * one of the main uses of generator functions we might use them to grab values from any infinite series.
 * This can have major applications such as generative algorithms for graphics, computer game levels, music sequences.
