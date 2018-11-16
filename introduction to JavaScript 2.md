@@ -74,3 +74,6 @@ obj[number1] === obj["1"]; //true
 
 In an object, accessing an element that doesn't exist will not throw an error,
 but returns undefined.
+
+## prototypes in JavaScript
+[prototypes-in-javascript](https://hackernoon.com/prototypes-in-javascript-5bba2990e04b)
