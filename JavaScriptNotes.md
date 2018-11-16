@@ -93,4 +93,17 @@ var person2 = new Object.create(person1);
 ### Object Prototypes in Javascript
 
 Prototypes are mechanisms in which Javascript objects inherits features from one another\\
+
 and they work differently than inheritance mechanisms in classical OOP languages.
+
+### function declaration
+
+* The variable is then set equal `=` to a set of parentheses followed by an arrow taken `() =>`,
+indicating the variable stores a function. This syntax is knows as *arrow function syntax*.
+
+```javascript
+// arrow function syntax
+const takeOrder = () => {
+    console.log('Order: pizza');
+};
+```
