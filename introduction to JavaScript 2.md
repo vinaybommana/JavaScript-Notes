@@ -78,7 +78,6 @@ but returns undefined.
 ## prototypes in JavaScript
 [prototypes-in-javascript](https://hackernoon.com/prototypes-in-javascript-5bba2990e04b)
 
-
 ```
 function Particle() {
     this.x = 100;
