@@ -77,3 +77,23 @@ but returns undefined.
 
 ## prototypes in JavaScript
 [prototypes-in-javascript](https://hackernoon.com/prototypes-in-javascript-5bba2990e04b)
+
+
+```
+function Particle() {
+    this.x = 100;
+    this.y = 100;
+}
+
+let p = new Particle();
+```
+
+here `Particle()` is called a constructor function,
+`new` creates an object p using the constructor function.
+
+now p is a Particle object
+which has x and y as properties
+
+if we print out p
+
+![p](images/particle_p.PNG)
